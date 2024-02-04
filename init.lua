@@ -1,0 +1,5 @@
+require("configs.core")
+require("configs.lazy")
+--vim.cmd("colorscheme desert")
+--vim.cmd("set ma")
+--vim.cmd("set ts=4 sw=4")
