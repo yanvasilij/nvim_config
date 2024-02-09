@@ -30,8 +30,21 @@ return {
 			},
 			git = {
 				ignore = false,
-			},
-		})
+            },
+            renderer = {
+                indent_markers = {
+                    enable = true,
+                },
+                icons = {
+                    glyphs = {
+                        folder = {
+                            arrow_closed = ">", -- arrow when folder is closed
+                            -- arrow_open = ">", -- arrow when folder is open
+                        },
+                    },
+                },
+            },
+        })
 
 		-- set keymaps
 		local keymap = vim.keymap -- for conciseness
